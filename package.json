@@ -1,0 +1,17 @@
+{
+  "name": "docker-protractor-headless",
+  "version": "1.0.0",
+  "description": "Docker image for running protractor",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-beforeAll": "git+https://github.com/kitcheck/jasmine-beforeAll#fix-require",
+    "jasmine-custom-message": "^0.7.3",
+    "jasmine-reporters": "^1.0.1",
+    "jasmine-spec-reporter": "^1.1.2",
+    "jasmine-tagged": "~1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitcheck/docker-protractor-headless.git"
+  }
+}

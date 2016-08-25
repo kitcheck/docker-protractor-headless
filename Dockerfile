@@ -4,6 +4,7 @@ MAINTAINER j.ciolek@webnicer.com
 WORKDIR /tmp
 
 RUN npm install -g protractor@1.8.0 mocha jasmine && \
+    npm install && \
     webdriver-manager update
 
 RUN apt-get clean && \
